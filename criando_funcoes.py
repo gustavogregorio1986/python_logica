@@ -25,3 +25,16 @@ somar_numeros(10, 15)
 
 somar_numeros(1000, 15)
 
+nome_teste = 'Python'
+
+def imprimir_frases_usuario(nome):
+
+    nome_usuario = nome + '1'
+
+    print(f'Seja bem vindo(a) à Empowerdata, {nome_usuario}')
+    print(f'Você está logado(a) nom sistema {nome_usuario}!')
+    print(f'Não esqueça de fazer o logout {nome_usuario}!')
+
+imprimir_frases_usuario('Gustavo')
+
+print('Vinicius')
